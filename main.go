@@ -12,7 +12,6 @@ import (
 	"strings"
 )
 
-
 type State struct {
 	State string // 0
 	Group string // 1
@@ -47,8 +46,6 @@ func readStateData() (*[]State, error) {
 }
 
 func main() {
-	fmt.Println("Hello World")
-
 	states, dataErr := readStateData()
 
 	if dataErr != nil {
