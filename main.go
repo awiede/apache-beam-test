@@ -1,4 +1,4 @@
-package apache_beam_test
+package main
 
 import (
 	"context"
@@ -20,7 +20,7 @@ type State struct {
 }
 
 func readStateData() (*[]State, error) {
-	file, openErr := os.Open("../internal/data/State.csv")
+	file, openErr := os.Open("internal/data/State.csv")
 
 	if openErr != nil {
 		return nil, openErr
