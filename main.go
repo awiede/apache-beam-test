@@ -1,4 +1,4 @@
-package main
+package apache_beam_test
 
 import (
 	"context"

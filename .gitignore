@@ -1,5 +1,8 @@
+apache-beam-test
+
 *.csv
 !State.csv
+states.txt
 
 # Created by https://www.gitignore.io/api/go,macos,linux,sublimetext,jetbrains+all,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=go,macos,linux,sublimetext,jetbrains+all,visualstudiocode
